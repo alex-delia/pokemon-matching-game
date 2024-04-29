@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.imgContainer {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

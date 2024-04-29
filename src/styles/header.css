@@ -1,0 +1,18 @@
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.header {
+    padding: 24px;
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: space-evenly;
+}

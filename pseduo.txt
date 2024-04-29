@@ -1,0 +1,10 @@
+Components:
+
+-Header
+    -Title
+    -Scoreboard
+-Card
+    -MakeCards (Use API for images)
+-Grid
+    -DisplayCards
+    -Click Logic
