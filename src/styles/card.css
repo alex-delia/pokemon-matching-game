@@ -24,3 +24,19 @@ img {
     max-height: 100%;
     object-fit: contain;
 }
+
+h3 {
+    font-size: 22px;
+}
+
+@media (max-width: 1024px) {
+    h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 12px;
+    }
+}

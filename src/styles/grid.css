@@ -7,3 +7,24 @@
     background-color: darkseagreen;
     overflow: hidden;
 }
+
+@media (max-width: 1024px) {
+    .grid {
+        padding: 100px 16px;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        padding: 92px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px 8px;
+        padding: 16px 16px;
+    }
+}
